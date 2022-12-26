@@ -157,6 +157,7 @@ section {
 
 h3.months{
     scale: 0.9;
+    text-align: center;
 }
 
 img#box-img {
