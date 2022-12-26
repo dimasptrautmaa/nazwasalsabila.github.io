@@ -26,4 +26,9 @@
     #top-right {
         gap: 13px;
     }
+
+    #box {
+        width: 95px;
+        height: 135px;
+    }
 }
