@@ -50,9 +50,11 @@ nav ul li {
     scale: 0;
     width: 160px;
     height: 110px;
-    background-color: #858585;
+    background-color: #404040;
     position: absolute;
-    border-radius: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     z-index: 2;
     left: -150px;
     top: 31px;
@@ -62,7 +64,7 @@ nav ul li {
     font-size: 0.8em;
     font-family: 'poppins', sans-serif;
     color: #eeeeee;
-    box-shadow: inset 5px 5px 10px #8c8c8c, 7px 7px 15px #4c4c4c;
+    box-shadow: inset 5px 5px 10px #454545, 7px 7px 15px #4c4c4c;
     transition: 0.7s;
     transform-origin: top right;
 }
@@ -71,9 +73,11 @@ nav ul li {
     scale: 0;
     width: 160px;
     height: 110px;
-    background-color: #858585;
+    background-color: #404040;
     position: absolute;
-    border-radius: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     z-index: 2;
     left: -150px;
     top: 31px;
@@ -84,7 +88,7 @@ nav ul li {
     font-family: 'poppins', sans-serif;
     color: #eeeeee;
     transition: 0.7s;
-    box-shadow: inset 5px 5px 10px #8c8c8c, 7px 7px 15px #4c4c4c;
+    box-shadow: inset 5px 5px 10px #454545, 7px 7px 15px #4c4c4c;
     transform-origin: top right;
 }
 
@@ -170,11 +174,13 @@ img#box-img {
 #box-right h3 {
     font-family: 'poppins', sans-serif;
     font-size: 0.85em;
-    color: rgb(121, 40, 5);
+    color: rgb(110, 110, 110);
+    font-weight: bold;
 }
 
 h3#after {
     display: none;
+    font-family: 'lato', sans-serif;
 }
 
 #box-right h1 {
