@@ -43,6 +43,7 @@ nav ul li {
 
 #ul-img1, #ul-img2 {
     width: 25px;
+    cursor: pointer;
 }
 
 #notif {
