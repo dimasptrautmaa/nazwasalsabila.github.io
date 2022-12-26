@@ -160,13 +160,8 @@ section {
     align-items: center;
 }
 
-h3.months{
-    scale: 0.9;
-    text-align: center;
-}
-
 img#box-img {
-    width: 40px;
+    width: 36px;
     transform: translateY(5px);
     cursor: pointer;
 }
