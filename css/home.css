@@ -209,9 +209,9 @@ h3#after {
     justify-content: center;
     align-items: center;
     overflow-y: scroll;
-    filter: blur(2.2px);
-    transition: 1s;
     transform-origin: right;
+    filter: grayscale();
+    transition: 1s;
 }
 
 #box {
@@ -220,13 +220,7 @@ h3#after {
     background-color: white;
     border-radius: 5px;
     margin: 10px 5px;
-    transition: 0.5s;
-    filter: grayscale();
     box-shadow: 5px 5px 10px rgb(105, 105, 105);
-}
-
-#box:hover {
-    filter: none;
 }
 
 .img1{
