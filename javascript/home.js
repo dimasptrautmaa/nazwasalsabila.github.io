@@ -10,14 +10,44 @@ const wrapper = document.getElementById('wrapper');
 const box = document.getElementById('box');
 const boxleft = document.getElementById('box-left')
 const boxleft2 = document.getElementById('box-left-2')
+const boxleft3 = document.getElementById('box-left-3')
+const seephoto = document.getElementById('see-photos')
+const btn = document.getElementById('button')
+const password = document.getElementById('password')
+const form = document.getElementById('form-photo')
+
+var passwordphoto = 'nazwasalsabila';
+
+function passcheck(){
+    if(document.getElementById('password').value != passwordphoto){
+        alert('wrong pass');
+    }
+    
+    if(document.getElementById('password').value == passwordphoto){
+        wrapper.style.filter = 'none'
+        boxleft3.style.display = 'none'
+        boxleft2.style.display = 'flex'
+        seephoto.style.display = 'none'
+    }
+}
+
+btn.addEventListener('click', function(){
+    form(passcheck());
+});
+
+seephoto.addEventListener('click', function(){
+    boxleft3.style.display = 'flex';
+    boxleft2.style.display = 'none';
+    boxleft.style.display = 'none';
+});
 
 playbtn.addEventListener('click', function(){
     vn.play();
     after.style.display = 'flex';
     before.style.display = 'none';
-    wrapper.style.filter = 'none';
     boxleft.style.display = 'none';
     boxleft2.style.display = 'flex';
+    boxleft3.style.display = 'none';
 })
 
 ulimg1.addEventListener('click', function(){
