@@ -146,6 +146,18 @@ section {
     inset 7px 7px 15px rgb(158, 141, 127), inset -5px -5px 15px rgb(255, 238, 229);
 }
 
+#box-left-2 {
+    width: 200px;
+    height: 310px;
+    background: #E7DFD1 url(/img/6cd66e42-1f2c-4f20-bd2d-f8c024738e6a-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 30px rgb(171, 160, 150);
+    display: none;
+}
+
 #box-right {
     width: 160px;
     height: 90px;
