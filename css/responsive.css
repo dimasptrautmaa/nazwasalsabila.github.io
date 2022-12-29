@@ -15,7 +15,7 @@
 /* ----- H O M E --- H T M L ----- */
 
 @media (max-width: 400px){
-    #box-left {
+    #box-left, #box-left-2, #box-left-3 {
         scale: 0.9;
     }
 

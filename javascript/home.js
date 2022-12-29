@@ -15,19 +15,24 @@ const seephoto = document.getElementById('see-photos')
 const btn = document.getElementById('button')
 const password = document.getElementById('password')
 const form = document.getElementById('form-photo')
+const ps = document.getElementById('ps')
 
 var passwordphoto = 'nazwasalsabila';
 
+password.addEventListener('click', function(){
+    ps.classList.remove('wrong')
+})
+
 function passcheck(){
     if(document.getElementById('password').value != passwordphoto){
-        alert('wrong pass');
+        ps.classList.add('wrong')
     }
     
     if(document.getElementById('password').value == passwordphoto){
-        wrapper.style.filter = 'none'
         boxleft3.style.display = 'none'
         boxleft2.style.display = 'flex'
         seephoto.style.display = 'none'
+        wrapper.style.filter = 'none'
     }
 }
 
